@@ -1,0 +1,111 @@
+/* first nav */
+.buy{
+    background-color:burlywood;
+    border-radius: 15px;
+}
+.buy:hover{
+    background-color:white;
+    color: black;
+    border-radius: 15px;
+}
+#back ul a{
+
+    color:rgb(241, 230, 230);
+    
+    }
+    /* second nav */
+    .bark{
+      background-color: rgb(33, 33, 69);    
+    }
+    #josh :hover:active{
+      color:rgba(12, 15, 7, 0.888);
+    
+    }
+    #josh ul a{
+      color: aliceblue;
+      padding-left: 50pxpx;
+    padding-RIGHT: 50px;
+    }
+       
+ .animate{
+    color: aliceblue;
+    background-color: rgb(33, 33, 69);
+ background-image: url(../img/Group-27.png);   
+ }
+ /*----------- heading---------- */
+ .hello{
+    color: rgb(148, 117, 12);
+    font-family: fantasy;
+    font-size: 40px;
+ }
+ .font{
+   font-size: 30px;
+ }
+ .name{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 100px;
+ }
+ /*----------- image column------------ */
+ .jaypic{
+   margin-bottom: 30px;
+    border:transparent;
+    padding-right: 60px;
+ }
+ /*-------------------- third navbar----------------- */
+ .thirdnav{
+ font-family: "HK Grotesk", Sans-serif;
+ font-size: 14px;
+ font-weight: 600;
+ text-transform: uppercase;
+ color: #CACBD2;
+ background-color: #2a2c47;
+ margin: 0px 0px 0px 0px;
+
+ border-style: solid;
+ border-width: 0px 1px 0px 0px;
+ border-color: rgba(255,255,255,0.05);
+ border-radius: 0px 0px 0px 0px;
+ 
+ 
+}
+.first{
+  padding-left: 60px;
+  padding-right: 60px;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.984);
+  border-right: 1px solid  rgba(255,255,255,0.05);
+  display: block;
+  
+  
+}
+.first:hover:active{
+  color: rgb(18, 13, 1);
+  background-color: rgb(243, 204, 11);
+  border-color: bisque;
+  text-align: center;
+
+}
+/* -------------about html file section-------------- */
+.about{
+  background-color: rgb(33, 33, 69);
+   color: white;
+   padding-right: 20px;
+   padding-left: 20px;
+   padding-top: 50px;
+   padding-bottom: 100px;
+
+}
+.btn-hero{
+  text-transform: uppercase;
+  background: transparent;
+  color: rgb(239, 239, 230);
+  letter-spacing: 0.1rem;
+  display: inline-block;
+  font-weight: 700;
+  border:2px solid black ;
+  padding: 0.75rem 1.25rem;
+}
+.btn-hero:hover{
+  color: aliceblue;
+  background: black;
+}
