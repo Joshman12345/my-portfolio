@@ -17,7 +17,7 @@
     .bark{
       background-color: rgb(33, 33, 69);    
     }
-    #josh :hover:active{
+    #josh :hover{
       color:rgba(12, 15, 7, 0.888);
     
     }
@@ -69,18 +69,18 @@
  
 }
 .first{
-  padding-left: 60px;
-  padding-right: 60px;
+  padding-left: 54px;
+  padding-right: 54px;
   text-align: center;
-  color: rgba(255, 255, 255, 0.984);
+  color: rgba(240, 235, 235, 0.984);
   border-right: 1px solid  rgba(255,255,255,0.05);
   display: block;
   
   
 }
-.first:hover:active{
+.first:hover{
   color: rgb(18, 13, 1);
-  background-color: rgb(243, 204, 11);
+  background-color: rgb(235, 234, 228);
   border-color: bisque;
   text-align: center;
 
@@ -108,4 +108,47 @@
 .btn-hero:hover{
   color: aliceblue;
   background: black;
-}
+ }
+ /* price html section ...........*/
+ .backgroundsection{
+
+  background-image: url(/img/-technology_1.jpg);
+  background-color:rgba(0, 0, 0,5);
+  
+  opacity:0.85;
+
+  transition: border-radius 0.3s, opacity 0.3s;
+  height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+  position:absolute;
+    margin-top: 63px;
+    padding-top: 10rem;
+    background-size: cover;   
+
+ }
+ 
+  
+  
+ #price-edit li a{
+  padding-right: 50px;
+  padding-left: 50px;
+  color:rgb(244, 235, 235);
+  font-weight: bold;
+  font-size: 15px;
+ }
+ .contact{
+  background-image: url(/img/image\ two.jpg);
+  background-color: rgba(76, 175, 80, 0.3,);
+color: white;
+  height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+  position:absolute;
+    margin-top: 63px;
+    padding-top: 10rem; 
+    background-size: cover; 
+ 
+ }
