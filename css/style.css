@@ -1,248 +1,225 @@
 /* first nav */
-.buy{
-    background-color:burlywood;
-    border-radius: 15px;
+.buy {
+  background-color: burlywood;
+  border-radius: 15px;
 }
-.buy:hover{
-    background-color:white;
-    color: black;
-    border-radius: 15px;
+.buy:hover {
+  background-color: white;
+  color: black;
+  border-radius: 15px;
 }
-#back ul a{
+#back ul a {
+  color: rgb(241, 230, 230);
+}
+/* second nav */
+.bark {
+  background-color: rgb(33, 33, 69);
+}
+#josh :hover {
+  color: rgba(223, 185, 14, 0.888);
+}
+#josh ul a {
+  color: aliceblue;
+  padding-left: 50px;
+  padding-right: 50px;
+}
 
-    color:rgb(241, 230, 230);
-    
-    }
-    /* second nav */
-    .bark{
-      background-color: rgb(33, 33, 69);    
-    }
-    #josh :hover{
-      color:rgba(223, 185, 14, 0.888);
-    
-    }
-    #josh ul a{
-      color: aliceblue;
-      padding-left: 50px;
-    padding-right: 50px;
-    }
-       
- .animate{
-    color: aliceblue;
-    background-color: rgb(33, 33, 69);
- background-image: url(../img/Group-27.png);   
- }
- /*----------- heading---------- */
- .hello{
-    color: rgb(252, 251, 246);
-    font-family: fantasy;
-    font-size: 40px;
- }
- .font{
-   font-size: 30px;
- }
- .name{
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 100px;
- }
- /*----------- image column------------ */
- .jaypic{
-   margin-bottom: 30px;
-    border:transparent;
-    padding-right: 60px;
- }
- /*-------------------- third navbar----------------- */
- .thirdnav{
- font-family: "HK Grotesk", Sans-serif;
- font-size: 14px;
- font-weight: 600;
- text-transform: uppercase;
- color: #CACBD2;
- background-color: #2a2c47;
- margin: 0px 0px 0px 0px;
-
- border-style: solid;
- border-width: 0px 1px 0px 0px;
- border-color: rgba(255,255,255,0.05);
- border-radius: 0px 0px 0px 0px;
- 
- 
+.animate {
+  color: aliceblue;
+  background-color: rgb(33, 33, 69);
+  background-image: url(../img/Group-27.png);
 }
-.first{
+/*----------- heading---------- */
+.hello {
+  color: rgb(252, 251, 246);
+  font-family: fantasy;
+  font-size: 40px;
+}
+.font {
+  font-size: 30px;
+}
+.name {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 100px;
+}
+/*----------- image column------------ */
+.jaypic {
+  margin-bottom: 30px;
+  border: transparent;
+  padding-right: 60px;
+}
+/*-------------------- third navbar----------------- */
+.thirdnav {
+  font-family: "HK Grotesk", Sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: #cacbd2;
+  background-color: #2a2c47;
+  margin: 0px 0px 0px 0px;
+
+  border-style: solid;
+  border-width: 0px 1px 0px 0px;
+  border-color: rgba(255, 255, 255, 0.05);
+  border-radius: 0px 0px 0px 0px;
+}
+.first {
   padding-left: 113px;
   padding-right: 114px;
   text-align: center;
   color: rgba(240, 235, 235, 0.984);
-  border-right: 1px solid  rgba(255,255,255,0.05);
+  border-right: 1px solid rgba(255, 255, 255, 0.05);
   display: block;
-  
-  
 }
-.first:hover{
+.first:hover {
   color: rgb(18, 13, 1);
   background-color: rgb(235, 234, 228);
   border-color: bisque;
   text-align: center;
-
 }
 /* -------------about html file section-------------- */
-.about{
+.about {
   background-color: rgb(33, 33, 69);
-   color: white;
-   padding-right: 20px;
-   padding-left: 20px;
-   padding-top: 50px;
-   padding-bottom: 100px;
-
+  color: white;
+  padding-right: 20px;
+  padding-left: 20px;
+  padding-top: 50px;
+  padding-bottom: 100px;
 }
-.btn-hero{
+.btn-hero {
   text-transform: uppercase;
   background: transparent;
   color: rgb(239, 239, 230);
   letter-spacing: 0.1rem;
   display: inline-block;
   font-weight: 700;
-  border:2px solid black ;
+  border: 2px solid black;
   padding: 0.75rem 1.25rem;
 }
-.btn-hero:hover{
+.btn-hero:hover {
   color: aliceblue;
   background: black;
- }
- /* price html section ...........*/
- .backgroundsection{
-
+}
+/* price html section ...........*/
+.backgroundsection {
   color: #110707;
-  background-color:#1f2235;
+  background-color: #1f2235;
   font-weight: bold;
-  opacity:0.50;
+  opacity: 0.5;
 
   transition: border-radius 0.3s, opacity 0.3s;
   height: 100%;
-    width: 100%;
-    top: 0;
-    left: 0;
-  position:absolute;
-    margin-top: 63px;
-    padding-top: 10rem;
-    background-size: cover;   
+  width: 100%;
+  top: 0;
+  left: 0;
+  position: absolute;
+  margin-top: 63px;
+  padding-top: 10rem;
+  background-size: cover;
+}
 
- }
- 
-  
-  
- #price-edit li a{
+#price-edit li a {
   padding-right: 50px;
   padding-left: 50px;
-  color:rgb(10, 1, 1);
+  color: rgb(10, 1, 1);
   font-weight: bold;
   font-size: 15px;
- }
- .contact{
+}
+.contact {
   background-image: url(/img/image\ two.jpg);
-  background-color: rgba(76, 175, 80, 0.3,);
-color: white;
+  background-color: rgba(76, 175, 80, 0.3);
+  color: white;
   height: 100%;
-    width: 100%;
-    top: 0;
-    left: 0;
-  position:absolute;
-    margin-top: 63px;
-    padding-top: 10rem; 
-    background-size: cover; 
- 
- }
- #myTabContent{
+  width: 100%;
+  top: 0;
+  left: 0;
+  position: absolute;
+  margin-top: 63px;
+  padding-top: 10rem;
+  background-size: cover;
+}
+#myTabContent {
   background-color: rgb(23, 23, 58);
-  
- }
- /* service section................... */
- .myservice{
+}
+/* service section................... */
+.myservice {
   background-color: #2a2c47;
   color: white;
   padding-top: 30px;
   padding-bottom: 30px;
-  
- }
-.serv{
+}
+.serv {
   background-color: #2a2c47;
   color: white;
   padding-top: 30px;
   padding-bottom: 30px;
-  
 }
-.interview{
-color: white;
-padding-top: 50px ;
+.interview {
+  color: white;
+  padding-top: 50px;
 }
-.myinterview{
-  background-color:#2a2c47 ;
+.myinterview {
+  background-color: #2a2c47;
 }
-.interview img{
+.interview img {
   float: left;
   padding-bottom: 20px;
-  padding-right: 20px; 
+  padding-right: 20px;
 }
-.interview h1:hover{
+.interview h1:hover {
   color: #ffc576;
 }
-.award img:hover{
-  transition: 0.5s;
-    -webkit-transform: scale(1);
-    transform: scale(1.1);
-}
-.award img{
+
+.award img {
   height: auto;
-    max-width: 100%;
-    border: none;
-    border-radius: 0;
-    -webkit-box-shadow: none;
-    box-shadow: none;
-    padding-top: 20px;
+  max-width: 100%;
+  border: none;
+  border-radius: 0;
+  -webkit-box-shadow: none;
+  box-shadow: none;
 }
-.award h3{
+/* .award h3 {
   background-color: transparent;
-    background-image: linear-gradient(180deg, rgba(31,34,53,0) 0%, #1f2235 100%);
-    padding: 100px 20px 20px 20px;
-    transition-duration: 0.3s;
-    color: white;
-    display: block;
-}
-.cardstyle{
+  background-image: linear-gradient(
+    180deg,
+    rgba(31, 34, 53, 0) 0%,
+    #1f2235 100%
+  );
+  padding: 100px 20px 20px 20px;
+  transition-duration: 0.3s;
+  color: white;
+  display: block;
+} */
+.cardstyle {
   height: 35rem;
 }
-.testimonial{
+.testimonial {
   padding-top: 20px;
-  border: solid rgba(255,197,118,0.75);
+  border: solid rgba(255, 197, 118, 0.75);
   border-radius: 10px;
   margin-left: 30px;
   margin-top: 30px;
   color: white;
   text-align: left;
-  
-  
 }
-.testimonial img{
+.testimonial img {
   float: left;
   height: 5rem;
   width: 5rem;
-  padding-left: 20px; 
+  padding-left: 20px;
 }
-.test-style{
-
-background-color: #050713;
-
+.test-style {
+  background-color: #050713;
 }
-.country{
+.country {
   background-color: #050713;
   padding-top: 100px;
 }
-.side{
+.side {
   margin-bottom: 30px;
-  
 }
-#btn-style{
-  border-radius: 10px; 
+#btn-style {
+  border-radius: 10px;
   width: 20rem;
   height: 7rem;
   padding-left: 10px;
@@ -250,27 +227,23 @@ background-color: #050713;
   margin-top: 5rem;
   padding-bottom: 100px;
 }
-#btn-style:hover{
+#btn-style:hover {
   background-color: #0a0600;
   color: aliceblue;
 }
 
-
-.social{
+.social {
   background-color: #bac1f0;
 }
-  
 
-
-.heady{
+.heady {
   padding-left: 40px;
   margin-top: 100px;
 }
-.some{
+.some {
   margin-top: 20rem;
-
 }
-.cardy{
+.cardy {
   background-color: #1f2235;
   color: white;
   padding-left: 30px;
@@ -279,10 +252,10 @@ background-color: #050713;
   padding-bottom: 20px;
   margin-bottom: 30px;
 }
-.over{
+.over {
   background-color: #2c325c;
 }
-.question{
+.question {
   background-color: #15182c;
   color: white;
   padding-top: 5rem;
@@ -290,27 +263,27 @@ background-color: #050713;
   padding-left: 20px;
   padding-bottom: 5rem;
 }
-.tab-content h5{
+.tab-content h5 {
   color: #be8431;
 }
-.cont{
-  background-color: #CACBD2;
+.cont {
+  background-color: #cacbd2;
   padding-bottom: 10rem;
   padding-left: 30px;
 }
-.form-style{
+.form-style {
   background-color: #1f2235;
   padding-bottom: 10rem;
   text-align: center;
 }
-.form-div{
+.form-div {
   color: white;
   text-align: left;
   padding-left: 30px;
-  padding-top: 40PX;
+  padding-top: 40px;
 }
-.inner input{
-  background-color:#f5f5f9;
+.inner input {
+  background-color: #f5f5f9;
   color: rgb(21, 20, 20);
   padding-top: 10px;
   padding-bottom: 10px;
@@ -324,7 +297,7 @@ background-color: #050713;
   height: 4rem;
   transition: ease-out;
 }
-#message{
+#message {
   width: 35rem;
   height: 150px;
   padding: 12px 20px;
@@ -338,15 +311,58 @@ background-color: #050713;
   margin-right: 50px;
   margin-top: 50px;
 }
-#contact-nav li a{
+#contact-nav li a {
   padding-right: 80px;
   padding-left: 80px;
-  color:rgb(10, 1, 1);
+  color: rgb(10, 1, 1);
   font-weight: bold;
   font-size: 15px;
 }
-.details{
-  background-color: #CACBD2;
+.details {
+  background-color: #cacbd2;
   padding-top: 30px;
   padding-bottom: 50px;
+}
+
+.hover-effect {
+  padding-top: 20px;
+}
+.hover-effect:hover .award {
+  display: none;
+}
+
+.hover-effect:hover .overlay-with-text {
+  display: block;
+  background-image: url(../img/post-7.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 200px;
+  width: 200px;
+  font-size: 5px;
+  color: white;
+  position: relative;
+  padding-top: 20px;
+}
+.hover-effect:hover .overlay-with-text .caption {
+  position: absolute;
+  bottom: 0;
+  /* left: 0; */
+  font-size: 12px;
+  text-align: center;
+  background-color: transparent;
+
+  background-image: linear-gradient(
+    180deg,
+    rgba(31, 34, 53, 0) 0%,
+    #1f2235 100%
+  );
+  transition-duration: 0.3s;
+  padding: 100px 20px 20px 20px;
+  transition: 0.5s;
+  -webkit-transform: scale(1);
+  transform: scale(1.1);
+}
+
+.overlay-with-text {
+  display: none;
 }
