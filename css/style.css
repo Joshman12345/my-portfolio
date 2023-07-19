@@ -350,3 +350,7 @@ background-color: #050713;
   padding-top: 30px;
   padding-bottom: 50px;
 }
+.swiper-container pagination{
+  color: black;
+  
+}  
