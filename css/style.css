@@ -18,13 +18,13 @@
       background-color: rgb(33, 33, 69);    
     }
     #josh :hover{
-      color:rgba(12, 15, 7, 0.888);
+      color:rgba(223, 185, 14, 0.888);
     
     }
     #josh ul a{
       color: aliceblue;
-      padding-left: 50pxpx;
-    padding-RIGHT: 50px;
+      padding-left: 50px;
+    padding-right: 50px;
     }
        
  .animate{
@@ -34,7 +34,7 @@
  }
  /*----------- heading---------- */
  .hello{
-    color: rgb(148, 117, 12);
+    color: rgb(252, 251, 246);
     font-family: fantasy;
     font-size: 40px;
  }
@@ -112,10 +112,10 @@
  /* price html section ...........*/
  .backgroundsection{
 
-  background-image: url(/img/-technology_1.jpg);
-  background-color:rgba(0, 0, 0,5);
-  
-  opacity:0.85;
+  color: #110707;
+  background-color:#1f2235;
+  font-weight: bold;
+  opacity:0.50;
 
   transition: border-radius 0.3s, opacity 0.3s;
   height: 100%;
@@ -134,7 +134,7 @@
  #price-edit li a{
   padding-right: 50px;
   padding-left: 50px;
-  color:rgb(244, 235, 235);
+  color:rgb(10, 1, 1);
   font-weight: bold;
   font-size: 15px;
  }
@@ -207,4 +207,146 @@ padding-top: 50px ;
     transition-duration: 0.3s;
     color: white;
     display: block;
+}
+.cardstyle{
+  height: 35rem;
+}
+.testimonial{
+  padding-top: 20px;
+  border: solid rgba(255,197,118,0.75);
+  border-radius: 10px;
+  margin-left: 30px;
+  margin-top: 30px;
+  color: white;
+  text-align: left;
+  
+  
+}
+.testimonial img{
+  float: left;
+  height: 5rem;
+  width: 5rem;
+  padding-left: 20px; 
+}
+.test-style{
+
+background-color: #050713;
+
+}
+.country{
+  background-color: #050713;
+  padding-top: 100px;
+}
+.side{
+  margin-bottom: 30px;
+  
+}
+#btn-style{
+  border-radius: 10px; 
+  width: 20rem;
+  height: 7rem;
+  padding-left: 10px;
+  padding-top: 20px;
+  margin-top: 5rem;
+  padding-bottom: 100px;
+}
+#btn-style:hover{
+  background-color: #0a0600;
+  color: aliceblue;
+}
+
+
+.social{
+  background-color: #bac1f0;
+}
+  
+
+
+.heady{
+  padding-left: 40px;
+  margin-top: 100px;
+}
+.some{
+  margin-top: 20rem;
+
+}
+.cardy{
+  background-color: #1f2235;
+  color: white;
+  padding-left: 30px;
+  margin-top: 10rem;
+  padding-top: 50px;
+  padding-bottom: 20px;
+  margin-bottom: 30px;
+}
+.over{
+  background-color: #2c325c;
+}
+.question{
+  background-color: #15182c;
+  color: white;
+  padding-top: 5rem;
+  text-align: left;
+  padding-left: 20px;
+  padding-bottom: 5rem;
+}
+.tab-content h5{
+  color: #be8431;
+}
+.cont{
+  background-color: #CACBD2;
+  padding-bottom: 10rem;
+  padding-left: 30px;
+}
+.form-style{
+  background-color: #1f2235;
+  padding-bottom: 10rem;
+  text-align: center;
+}
+.form-div{
+  color: white;
+  text-align: left;
+  padding-left: 30px;
+  padding-top: 40PX;
+}
+.inner input{
+  background-color:#f5f5f9;
+  color: rgb(21, 20, 20);
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-top: 50px;
+  border: 1px solid white;
+  margin-right: 30px;
+  margin-left: 30px;
+  margin-bottom: 20px;
+  border-radius: 20px;
+  width: 25rem;
+  height: 4rem;
+  transition: ease-out;
+}
+#message{
+  width: 35rem;
+  height: 150px;
+  padding: 12px 20px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  background-color: #f8f8f8;
+  font-size: 16px;
+  resize: none;
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-top: 50px;
+}
+#contact-nav li a{
+  padding-right: 80px;
+  padding-left: 80px;
+  color:rgb(10, 1, 1);
+  font-weight: bold;
+  font-size: 15px;
+}
+.details{
+  background-color: #CACBD2;
+  padding-top: 30px;
+  padding-bottom: 50px;
 }
