@@ -1,0 +1,14 @@
+@media screen and (min-width: 1px) and (max-width: 420px) {
+  .name{
+    font-size: 40px;
+  }  
+  #btn-style{
+   width: 15rem; 
+   height: 5rem;
+  }
+  .size{
+    width: 30px;
+    height: 30px;
+  }
+  
+}

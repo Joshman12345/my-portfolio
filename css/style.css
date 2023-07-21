@@ -3,6 +3,9 @@
   background-color: burlywood;
   border-radius: 15px;
 }
+.navbar-toggler-icon{
+  background-color: rgb(243, 168, 48);
+}
 .buy:hover {
   background-color: white;
   color: black;
@@ -24,6 +27,8 @@
   padding-right: 50px;
 }
 
+
+
 .animate {
   color: aliceblue;
   background-color: rgb(33, 33, 69);
@@ -32,7 +37,6 @@
 /*----------- heading---------- */
 .hello {
   color: rgb(252, 251, 246);
-  font-family: fantasy;
   font-size: 40px;
 }
 .font {
@@ -45,8 +49,9 @@
 /*----------- image column------------ */
 .jaypic {
   margin-bottom: 30px;
-  border: transparent;
+ 
   padding-right: 60px;
+
 }
 /*-------------------- third navbar----------------- */
 .thirdnav {
@@ -103,14 +108,15 @@
 /* price html section ...........*/
 .backgroundsection {
   color: #110707;
-  background-color: #1f2235;
+  
+  background-image: url(/img/IMG-20230720-WA0006.jpg);
   font-weight: bold;
-  opacity: 0.5;
+  opacity: 0.3;
 
   transition: border-radius 0.3s, opacity 0.3s;
   height: 100%;
   width: 100%;
-  top: 0;
+  /* top: 0; */
   left: 0;
   position: absolute;
   margin-top: 63px;
@@ -201,12 +207,26 @@
   margin-top: 30px;
   color: white;
   text-align: left;
+  height: 20rem;
+}
+.happy{
+  padding-left:50px;
+}
+.quote{
+  float: right;
+  padding-right: 20px;
+  
 }
 .testimonial img {
   float: left;
-  height: 5rem;
-  width: 5rem;
+  height: 7rem;
+  width: 7rem;
   padding-left: 20px;
+  border-radius: 10px;
+}
+.testimonial p{
+  padding-left: 20px;
+  font-size: 20px;
 }
 .test-style {
   background-color: #050713;
@@ -234,6 +254,9 @@
 
 .social {
   background-color: #bac1f0;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-left: 30px;
 }
 
 .heady {
@@ -258,13 +281,15 @@
 .question {
   background-color: #15182c;
   color: white;
-  padding-top: 5rem;
+  padding-top: 8rem;
   text-align: left;
   padding-left: 20px;
-  padding-bottom: 5rem;
+  padding-bottom: 8rem;
 }
 .tab-content h5 {
   color: #be8431;
+  font-size: 35px;
+  padding-bottom: 20px;
 }
 .cont {
   background-color: #cacbd2;
@@ -296,6 +321,10 @@
   width: 25rem;
   height: 4rem;
   transition: ease-out;
+}
+#date-style{
+  padding-left: 20px;
+  padding-right: 20px;
 }
 #message {
   width: 35rem;
@@ -365,4 +394,77 @@
 
 .overlay-with-text {
   display: none;
+}
+.footer{
+  color: white;
+  padding: 30px 30px 30px 30px;
+   
+}
+.footer-button{
+  padding-left: 100px;
+  padding-top: 30px;
+}
+.footer-bg{
+  background-color: #15182c;
+}
+#scroll-up{
+  position:fixed;
+    left: 70rem;
+    cursor: pointer;
+    bottom: 30px;
+    width: 50px;
+    transition: all .5s ease 0s;
+    z-index: 999;
+    height: 50px;
+    background:#a5afed;
+    border-radius: 50%;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    z-index:1;
+    box-shadow: 0px 0px 0px 1px rgba(255, 197, 118, 0)
+    
+}
+#scroll-up:hover{
+  background-color: #be8431;
+}
+#left{
+  float: right;
+  width: 50px;
+    transition: all .5s ease 0s;
+    z-index: 999;
+    height: 50px;
+    background:#a5afed;
+    border-radius: 10%;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    box-shadow: 0px 0px 0px 1px rgba(255, 197, 118, 0);
+    font-size: 30px;
+    
+
+}
+#right{
+  
+  width: 50px;
+    transition: all .5s ease 0s;
+    z-index: 999;
+    height: 50px;
+    background:#a5afed;
+    border-radius: 10%;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    box-shadow: 0px 0px 0px 1px rgba(255, 197, 118, 0);
+    font-size: 30px;     
+}
+#left:hover{
+  background-color: #ebb76d;
+}
+#right:hover{
+  background-color: #ebb76d;
+}
+
+.swiper-horizontal > .swiper-pagination-bullets .swiper-pagination-bullet, .swiper-pagination-horizontal.swiper-pagination-bullets .swiper-pagination-bullet {
+  background: white !important;
 }
