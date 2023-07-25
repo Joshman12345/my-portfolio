@@ -5,6 +5,7 @@
 }
 .navbar-toggler-icon{
   background-color: rgb(243, 168, 48);
+  margin-left: 100px;
 }
 .buy:hover {
   background-color: white;
@@ -119,17 +120,24 @@
   /* top: 0; */
   left: 0;
   position: absolute;
-  margin-top: 63px;
   padding-top: 10rem;
   background-size: cover;
 }
+.second-p{
+  padding-top: 20px;
+  background-color: #a5afed;
+}
 
-#price-edit li a {
+#price-edit ul a {
   padding-right: 50px;
   padding-left: 50px;
   color: rgb(10, 1, 1);
   font-weight: bold;
   font-size: 15px;
+
+}
+#price-edit li a:hover{
+  color: #be8431;
 }
 .contact {
   background-image: url(/img/image\ two.jpg);
@@ -197,7 +205,7 @@
   display: block;
 } */
 .cardstyle {
-  height: 35rem;
+  
 }
 .testimonial {
   padding-top: 20px;
@@ -246,6 +254,8 @@
   padding-top: 20px;
   margin-top: 5rem;
   padding-bottom: 100px;
+  text-align: left;
+  
 }
 #btn-style:hover {
   background-color: #0a0600;
@@ -257,6 +267,15 @@
   padding-top: 30px;
   padding-bottom: 30px;
   padding-left: 30px;
+ 
+}
+.icons{
+  float: right;
+  font-size: 50px;
+  padding-bottom: 30px;
+  padding-right: 20px;
+  
+
 }
 
 .heady {
@@ -277,6 +296,7 @@
 }
 .over {
   background-color: #2c325c;
+  
 }
 .question {
   background-color: #15182c;

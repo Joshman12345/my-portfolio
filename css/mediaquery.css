@@ -3,12 +3,71 @@
     font-size: 40px;
   }  
   #btn-style{
-   width: 15rem; 
+   width: 17rem; 
    height: 5rem;
   }
   .size{
     width: 30px;
     height: 30px;
   }
-  
+  .inner input{
+    width: 17rem; 
+   height: 5rem;
+   margin-left: 20px;
+   margin-right: 20px;
+  }
+  #message{
+    width:17rem ;
+    height: 60px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+  }
+  .question{
+    padding-left: 0px;
+    text-align: left;
+    font-size: 10px;
+  }
+  .question h5{
+    font-size: 20px;
+  }
+  .country img{
+    width: 100px;
+    height: 100px;
+  }
+  .myswiper{
+    slides-per-view: 2
+  }
+
+  .cardstyle a{
+  width: 50px;
+  height: 50px;
+  font-size: 7px;
+  }
+  .cardstyle{
+    font-size: 10px;
+  }
+  .cardstyle h5{
+    font-size: 20px;
+  }
+  .testimonial img{
+    width: 3rem;
+    height: 3rem;
+  }  
+  .quote{
+   font-size: 3px; 
+  }
+  .testimonial p{
+    font-size:7px;
+  padding-right: 10px;
+    text-align: left;
+  }
+  .testimonial{
+    height: 15rem;
+    text-align: center;
+    font-size: 5px;
+  }
+  .testimonial b{
+    font-size: 5px;
+  }
 }
